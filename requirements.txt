@@ -1,7 +1,7 @@
 Flask
 matplotlib
 numpy
-opencv_python
+opencv-python-headless
 streamlit
 tensorflow
 
