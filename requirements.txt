@@ -4,4 +4,4 @@ numpy
 opencv_python
 streamlit
 tensorflow
-libgl1-mesa-glx
+
