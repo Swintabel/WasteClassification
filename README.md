@@ -1,1 +1,2 @@
-# WasteClassification
+# RealWaste
+A waste classification problem.
