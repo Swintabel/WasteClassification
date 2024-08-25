@@ -33,7 +33,7 @@ be tested with the app.
 """)
 
 # File uploader
-uploaded_file = st.file_uploader("Choose an image...", type="jpg")
+uploaded_file = st.sidebar.file_uploader("Choose an image...", type="jpg")
 
 if uploaded_file is not None:
     # Save the uploaded file temporarily
