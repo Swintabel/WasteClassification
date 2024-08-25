@@ -22,6 +22,16 @@ cnn = load_model("cnnModel.keras")
 # Streamlit app
 st.title("Trash Classification with CNN Model (EfficientNetV2B0)")
 
+# Add an image (e.g., a logo or banner)
+st.image("your_image.jpg", caption="Welcome to the Trash Classification App", use_column_width=True)
+
+# Add a description about the application
+st.write("""
+Welcome to the Trash Classification App! This application utilizes a Convolutional Neural Network (CNN) model based on the EfficientNetV2B0 architecture to classify different types of trash. 
+Upload an image of trash, and the model will predict the type of material, helping you to sort your waste more efficiently. Nine classes of waste can
+be tested with the app. These are: Cardboard, Food Organics, Glass, Metal, Miscellaneous Trash, Paper, Plastic, Textile Trash, and Vegetation
+""")
+
 # File uploader
 uploaded_file = st.file_uploader("Choose an image...", type="jpg")
 
