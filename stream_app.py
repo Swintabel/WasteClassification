@@ -56,17 +56,17 @@ if uploaded_file is not None:
 
     # Results
     results = {
-        "CNN+EfficientNet V2 Model": pred_label
-        #"Hybrid Model": pred_label2
+        "CNN Model": pred_label
+        
     }
 
     # Display results
-    st.image("img.jpg", caption="Uploaded Image", use_column_width=True)
+    st.image("img.jpg", caption="Uploaded Image", use_container_width=True)
     st.write("### Predictions")
-    st.write(results)
+    st.write("## " + results)
 
 
 # Add an image 
-st.image("classes.jpg", caption="Welcome to the Trash Classification App", use_column_width=True)
+st.image("classes.jpg", caption="Welcome to the Trash Classification App", use_container_width=True)
 
 
