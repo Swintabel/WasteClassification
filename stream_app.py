@@ -55,10 +55,8 @@ if uploaded_file is not None:
     #pred_label2 = labels[predicted_class2[0]]
 
     # Results
-    results = {
-        "CNN Model": pred_label
+    results = pred_label
         
-    }
 
     # Display results
     st.image("img.jpg", caption="Uploaded Image", use_container_width=True)
