@@ -63,7 +63,7 @@ if uploaded_file is not None:
     # Display results
     st.image("img.jpg", caption="Uploaded Image", use_container_width=True)
     st.write("### Predictions")
-    st.markdown("## " + results)
+    st.markdown(f"## {results}")
 
 
 # Add an image 
