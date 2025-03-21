@@ -1,5 +1,7 @@
 # EVALUATING CNN-RNN HYBRID MODEL FOR ACCURATE WASTE OBJECT CLASSIFICATION
 
+[Deployed Model](https://streamapppy-kvtdvtrzuugnswsgjlrr4p.streamlit.app/)
+
 ## Project Summary
 Developed and evaluated a standalone CNN model and a hybrid CNN-RNN model integrating EfficientNetV2B0 with LSTM for waste classification. Leveraged data augmentation and transfer learning on a dataset of 4,752 images across nine categories. Achieved 86% test accuracy and a 96% training accuracy, improving classification for Glass and Metal while addressing challenges in diverse waste categories.
 
